@@ -1,0 +1,22 @@
+{
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz, 2 vCPUs (cloud VM), no GPU",
+ "threads": 2,
+ "frames": 40,
+ "inference": {
+  "mean_ms": 418.024045774996,
+  "median_ms": 413.19633950001844,
+  "p95_ms": 466.4590400000179
+ },
+ "mobile": {
+  "mean_ms": 459.82961510000564,
+  "median_ms": 459.18370549986776,
+  "p95_ms": 498.68244999993294
+ },
+ "desktop": {
+  "mean_ms": 2006.1596126999916,
+  "median_ms": 2016.139663499871,
+  "p95_ms": 2106.1838029997944
+ },
+ "weights": "five-class YOLOv8m (v1); same architecture and 78.7 GFLOPs as the ten-class model",
+ "software": "Ultralytics 8.4.216, PyTorch 2.15.0 (CPU)"
+}

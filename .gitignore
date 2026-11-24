@@ -1,0 +1,41 @@
+# Secrets & local configuration
+.env
+*.env
+!*.env.example
+firebase-adminsdk.json
+*firebase-adminsdk*.json
+!*firebase-adminsdk*.example.json
+google-services.json
+config.properties
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+runs/
+
+# Model weights and datasets (distributed via releases / original sources)
+*.pt
+*.onnx
+*.weights
+ISG_Final_Dataset*/
+*.zip
+
+# Java desktop
+desktop_app/*.class
+
+# Android
+mobile_app/**/build/
+mobile_app/**/.gradle/
+mobile_app/**/local.properties
+mobile_app/**/.cxx/
+mobile_app/**/captures/
+mobile_app/**/.idea/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

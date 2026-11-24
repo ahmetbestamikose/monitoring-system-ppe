@@ -1,0 +1,16 @@
+# Template for the ten-class dataset (adjust 'path')
+path: ./ISG_Final_Dataset2
+train: train/images
+val: valid/images
+nc: 10
+names:
+  0: mask
+  1: helmet
+  2: belt
+  3: vest
+  4: glasses
+  5: welding_helmet
+  6: ear_protection
+  7: toolbox
+  8: safety_gloves
+  9: protective_suit
